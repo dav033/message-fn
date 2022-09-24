@@ -1,0 +1,54 @@
+{/* <form className={styles.login} onSubmit={handleSubmit(onSubmit)}>
+        <div
+          className={styles.inputContainer}
+          id="userContainer"
+          style={{ backgroundColor: '' }}
+        >
+          <input
+            type="text"
+            placeholder=" "
+            className={styles.loginInput}
+            id="user"
+            autoComplete="off"
+            {...register('userName')}
+          ></input>
+          <label
+            htmlFor="userInput"
+            className={styles.loginLabel}
+            style={{ backgroundColor: '' }}
+          >
+            Usuario
+          </label>
+        </div>
+
+        <div
+          className={styles.inputContainer}
+          id="passworContainer"
+          style={{ backgroundColor: '' }}
+        >
+          <input
+            type="password"
+            placeholder=" "
+            className={styles.loginInput}
+            id="password"
+            autoComplete="off"
+            {...register('password')}
+          />
+          <label htmlFor="userInput" className={styles.loginLabel}>
+            Contraseña
+          </label>
+        </div>
+
+        <div className={styles.buttonContainer}>
+          <button type="submit" className={styles.submitInput}>
+            Ingresar
+          </button>
+          <div className={styles.toRegister} style={{ backgroundColor: '' }}>
+            <h5>¿No tienes cuenta?</h5>
+            &nbsp;
+            <Link href="/register">
+              <a>Haz click aqui</a>
+            </Link>
+          </div>
+        </div>
+      </form> */}

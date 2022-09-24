@@ -1,0 +1,26 @@
+@import "./_vars.scss";
+
+.registerInput {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    color: $white;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .inputRegister {
+    border: none;
+    width: 190px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: $light1;
+    color: $white;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    &:focus {
+      border: 2px solid $main;
+    }
+  }
+}
