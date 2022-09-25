@@ -1,3 +1,4 @@
+import DashboardList from '@components/dashboardList'
 import RenderProfileImage from '@components/renderProfileImage'
 import style from '@styles/sidebar.module.scss'
 import { userSession } from 'src/types'
@@ -26,7 +27,7 @@ export default function CollapsileSidebarView (props: Props) {
         </div>
         <h2 style={{ marginTop: '5px', color: '#dcdcdd' }}>{'ol'}</h2>
       </div>
-      {/* <DashboardList /> */}
+      <DashboardList />
     </div>
   )
 }

@@ -1,17 +1,6 @@
-import { basePath } from '@helpers/index'
-
 import create from 'zustand'
 
-import {
-  loginP,
-  getUserById,
-  getMessagesByRoomId,
-  getMessagesByChatId,
-  getChatsByIdGroup,
-  registerP,
-  revalidateUserData,
-  getUser
-} from '../petitions'
+import { loginP, registerP, revalidateUserData } from '../petitions'
 
 import socket from 'src/socket'
 
