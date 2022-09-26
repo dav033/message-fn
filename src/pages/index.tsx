@@ -9,7 +9,9 @@ const Home: NextPage = () => {
   return !isLogged()
     ? (
     <div className={styles.container}>
-      <Link href="/login">LOGIN</Link>
+      <Link href="/login">
+        <a style={{ color: 'white' }}>login</a>
+      </Link>
       <button onClick={logout}>CERRAR SESION</button>
     </div>
       )

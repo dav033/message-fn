@@ -11,7 +11,7 @@ export default function DashboardList () {
 
   const listObject = [
     {
-      destinyPath: '/test',
+      destinyPath: '/createRoom',
       icon: <AiOutlineUsergroupAdd className={style.iconDashboard} />,
       content: 'Crear Sala',
       key: 1

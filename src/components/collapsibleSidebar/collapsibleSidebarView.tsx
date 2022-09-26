@@ -1,6 +1,8 @@
+import CreateRoomModal from '@components/createRoomModal'
 import DashboardList from '@components/dashboardList'
 import RenderProfileImage from '@components/renderProfileImage'
 import style from '@styles/sidebar.module.scss'
+import CreateRoom from 'src/pages/createRoom'
 import { userSession } from 'src/types'
 
 interface Props {
@@ -28,6 +30,7 @@ export default function CollapsileSidebarView (props: Props) {
         <h2 style={{ marginTop: '5px', color: '#dcdcdd' }}>{'ol'}</h2>
       </div>
       <DashboardList />
+      <CreateRoomModal />
     </div>
   )
 }

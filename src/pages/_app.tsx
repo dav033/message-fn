@@ -19,7 +19,18 @@ function MyApp ({ Component, pageProps }: AppProps) {
       <Hydrate state={pageProps.dehydrateState}>
         <div className="cont">
           <Sidebar />
-          <Component {...pageProps} />
+          <div
+            style={{
+              display: 'flex',
+              justifyItems: 'center',
+              alignItems: 'center',
+              width: '100%',
+              height: '100%',
+              flex: '1'
+            }}
+          >
+            <Component {...pageProps} />
+          </div>
         </div>
       </Hydrate>
     </QueryClientProvider>
